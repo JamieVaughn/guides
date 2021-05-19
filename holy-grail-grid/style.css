@@ -40,5 +40,8 @@ body {
 @media screen and (min-width: 550px) {
   .wrapper {
     margin: 0 auto;
+    grid-template-areas: 'header header header'
+                          'sidenav main sidebar'
+                          'footer footer footer';;
   }
 }
