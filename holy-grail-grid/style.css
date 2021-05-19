@@ -21,3 +21,18 @@ body {
                         'footer';
   grid-template-rows: auto;
 }
+.header {
+  grid-area: header;
+}
+.sidenav {
+  grid-area: sidenav;
+}
+.content {
+  grid-area: main;
+}
+.sidebar {
+  grid-area: sidebar;
+}
+.footer {
+  grid-area: footer;
+}
